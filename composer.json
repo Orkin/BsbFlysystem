@@ -15,10 +15,16 @@
             "email": "baskamer@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/Orkin/zend-cache"
+        }
+    ],
     "require": {
         "php": "^7.0",
         "league/flysystem": "^1.0.41",
-        "zendframework/zend-cache": "^2.7",
+        "zendframework/zend-cache": "dev-master",
         "zendframework/zend-servicemanager": "^2.7.6 || ^3.0 || dev-develop",
         "zendframework/zend-stdlib": "^2.2 || ^3.0"
     },
